@@ -11,3 +11,7 @@ steps:
 services:
 - name: redis
   image: redis
+  
+trigger:
+  branch:
+  - feature/drone-updates
