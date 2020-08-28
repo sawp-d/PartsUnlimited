@@ -1,0 +1,13 @@
+kind: pipeline
+name: build
+
+steps:
+- name: test
+  image: alpine:3.8
+  commands:
+  - echo hello
+  - echo world
+
+services:
+- name: redis
+  image: redis
