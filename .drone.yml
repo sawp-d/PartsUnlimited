@@ -7,10 +7,6 @@ steps:
   commands:
   - echo hello
   - echo world
-
-services:
-- name: redis
-  image: redis
   
 trigger:
   branch:
