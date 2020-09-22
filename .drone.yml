@@ -6,7 +6,7 @@ steps:
   image: alpine:3.8
   commands:
   - echo hello!
-  - echo world!
+  - echo world!!
   
 trigger:
   branch:
