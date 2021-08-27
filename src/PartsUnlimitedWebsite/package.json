@@ -21,7 +21,7 @@
     "node-sass": "^4.6.1",
     "npmconf": "2.1.2",
     "pretty-bytes": "4.0.2",
-    "readable-stream": "2.1.5",
+    "readable-stream": "2.3.7",
     "request": "^2.88.0",
     "update-notifier": "1.0.2"
   },
