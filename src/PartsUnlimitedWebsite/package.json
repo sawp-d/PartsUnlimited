@@ -23,7 +23,7 @@
     "pretty-bytes": "4.0.2",
     "readable-stream": "2.1.5",
     "request": "^2.88.0",
-    "update-notifier": "1.0.2"
+    "update-notifier": "4.0.0"
   },
   "name": "PartsUnlimited",
   "readme": "Look at: https://partsunlimited.visualstudio.com/DefaultCollection/Assets/_git/Cloud#path=%2FREADME.md&version=GBmaster&_a=contents",
