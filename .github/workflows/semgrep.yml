@@ -22,7 +22,7 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-        - name: install
-          image: returntocorp/semgrep:latest
-          commands:
-          - semgrep --config=auto .
+      - name: install
+        image: returntocorp/semgrep:latest
+        commands:
+        - semgrep --config=auto .
