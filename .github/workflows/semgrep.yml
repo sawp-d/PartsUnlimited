@@ -32,4 +32,4 @@ jobs:
         with:
           # Rules and patterns to search for with semgrep.
 
-          config: auto
+          config: p/owasp-top-ten
