@@ -25,8 +25,11 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       
-      - name: install
-        uses: docker://returntocorp/semgrep:latest
-      
-      - name: Run a one-line script
-        run: semgrep --config=auto .
+      - name: semgrep-action
+        # You may pin to the exact commit or the version.
+        # uses: returntocorp/semgrep-action@b4ae418326a5e8bd4fc3b0b658695aee09ca0e2a
+        uses: returntocorp/semgrep-action@v1
+        with:
+          # Rules and patterns to search for with semgrep.
+
+          config: owasp-top-ten
