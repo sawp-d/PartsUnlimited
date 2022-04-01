@@ -1,0 +1,16 @@
+# Use this pipeline to check the formatting of Terraform and run a basic lint.
+# Be sure to update your terraform image as appropriate.
+# If terraform fmt fails, locally run terraform fmt -recursive to fix formatting and commit.
+# The current steup will trigger for any push to a branch, including main.
+kind: pipeline
+name: test
+
+steps:
+  - name: semgrep
+    image: returntocorp/semgrep-agent
+    commands:
+      - semgrep-agent --config=p/ci
+    
+trigger:
+  event:
+  - push
